@@ -1,0 +1,31 @@
+.normal{
+  background-color: white;
+  color: black;
+}
+.style1{
+  background-color: #882ab0;
+  color: #f3dfdf;
+}
+.style2{
+  background-color: #050a5f;
+  color: #25a9a2;
+}
+.galery{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.good{
+  margin: 10px 50px;
+}
+.cardImage{
+  border-radius: 30px;
+  width: 300px;
+  height: 300px;
+}
+.App{
+  display: inline-flex;
+  flex-direction: column;
+}
