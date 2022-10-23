@@ -22,7 +22,6 @@ class Content extends React.Component {
     render() {
         return (
             <div>
-                <h2>Грязнова Євгенія Сергіївна</h2>
                 <p><strong>Дата і місце народження:</strong> 16 12.2001, м. Київ.</p>
                 <p><strong>Освіта:</strong> НВК 143, КПІ ім. Ігоря Сікорського.</p>
                 <h3>Хоббі:</h3>

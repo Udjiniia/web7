@@ -3,6 +3,7 @@ import '../css/App.css';
 import Content from "./Content";
 import Image from "./Image";
 import Galery from "./Galery";
+import Header from "./Header";
 
 
 
@@ -19,6 +20,7 @@ class App extends React.Component {
             this.state.firstTask ? (
                 <div align={"center"} className="App">
                     <button onClick={e => this.setState({firstTask: false})}>Друге завдання</button>
+                    <Header /> 
                     <Content/>
                     <Image/>
                 </div>
